@@ -4,6 +4,269 @@
     box-sizing: border-box;
 }
 
+/*Inicio del Header */
+
+header{
+    background: url(../assets/banner-bk.jpg);
+    color: white;
+    padding-top: 60px;
+}
+
+header img{
+    width:5%;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.div1 p{
+    font-size: 20px;
+}
+
+header h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.p1{
+    font-size: 20px;
+    margin-left: 8%;
+    margin-right: 50%;
+}
+
+header button{
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    background-color: #00FFAD;
+    border: 0;
+    margin: 45px 0px 71px 8%;
+}
+
+/* Fin del header */
+
+/* Inicio de Section 1 */
+
+.figuras{
+    padding-bottom: 10%;
+}
+
+.figuras h2{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3%;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.tarjetas h3{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tarjetas p{
+    font-size: 20px;
+}
+/* Fin de Section 1 */
+
+/* Inicio de Section 2*/
+.lap{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.lap h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.lap p{
+    font-size: 18px;
+}
+
+.take{
+    margin-left: 11%;
+    margin-right: 18%;
+}
+
+.lap button{
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    background-color: #192440;
+    border: 0;
+    color: white;
+    margin-top: 8%;
+}
+/* Fin section 2 */
+
+/* Inicio de Section 3 */
+
+.tab{
+    display: flex;
+    padding-left: 12%;
+    padding-bottom: 4%;
+}
+
+.tab h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+.tab p{
+     font-size: 18px;
+}
+
+.tab button{
+    font-size: 15px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    background-color: #192440;
+    border: 0;
+    color: white;
+    margin-top: 8%;
+}
+
+.texto{
+    margin-left: 13%;
+}
+/* Fin Section 3 */
+
+/* Section Principal */
+.degra{
+    background: linear-gradient(168deg, white 54%, #00FFAD 20%);
+}
+/* Fin principal */
+
+
+
+/* Inicio Section 4 */
+
+.sec4 h2{
+    font-size: 45px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.cajagrande{
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%; */
+    padding: 0% 10% 10% 10%;
+}
+
+.caja{
+    background-color: #ffffff;
+    padding: 40px 105px 40px 105px;
+    text-align: center;
+    list-style: none;
+    color: rgb(0, 0, 0);
+}
+
+.caja h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.caja samp{
+    font-size: 110px;
+}
+
+.caja p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja li{
+    font-size: 17px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja button{
+    padding: 12px 30px 12px 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: #ffffff;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+ 
+.caja2{
+    background-color: #192440;
+    padding: 40px 105px 40px 105px;
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.caja2 h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.caja2 samp{
+    font-size: 110px;
+}
+
+.caja2 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 li{
+    font-size: 17px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja2 button{
+    padding: 12px 30px 12px 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #00FFAD;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+/* Fin Section 4 */
+
+/* Inicio Section 5 */
+.sec5{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ECEEEF;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+/* Fin Section 5 */
+
+/* Inicio de footer */
+
+.fot{
+    display: flex;
+}
+
 footer img{
     width: 50px;
 }
