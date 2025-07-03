@@ -376,3 +376,167 @@ footer img{
 .imgem{
     width: 80px;
 }
+
+/* Inicio de media@ de 1279 */
+
+@media (max-width:1279px){
+
+    header{
+        zoom: 0.8;
+    }
+
+    .div1 p {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+
+    .p1{
+        margin-right: 33%;
+    }
+
+    header button{
+        font-size: 17px;
+    }
+
+    .tarjetas p {
+        font-size: 16px;
+    }
+
+    .tarjetas h3 {
+        font-size: 20px;    
+    }
+
+    .lap img{
+        width: 85%;
+    }
+
+    .lap h2{
+        font-size: 36px;
+    }
+
+    .lap p {
+        font-size: 16px;
+    }
+
+    .take{
+        margin-left: 6%;
+    }
+
+    .lap button {
+        font-size: 14px;
+        margin-top: 6%;
+    }
+
+    .tab img{
+        width: 84%;
+        margin-left: 30px;
+    }
+
+    .tab h2{
+        font-size: 36px;
+    }
+
+    .tab p{
+        font-size: 16px;
+    }
+
+    .tab button{
+        font-size: 14px;
+        margin-top: 6%;
+    }
+
+    .texto {
+        margin-left: auto;
+    }
+
+    .sec5{
+        justify-content: space-between;
+    }
+
+    .parra{
+        margin-bottom: 20px;
+    }
+
+    .fot p{
+        line-height: 25px;
+    }
+
+    .fot{
+        zoom:0.8;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    textarea{
+        padding: 10px 29px;
+    }
+
+    .ultimo{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width:920px){
+
+    .cajagrande{
+        gap: 5%;
+    }
+
+    .sec5 img{
+        width: 100px;
+        height: 60px;
+    }
+
+    header{
+        zoom: 0.7;
+    }
+
+    .p1{
+        margin-right: 30%;
+    }
+
+    .figuras h2{
+        font-size: 33px;
+    }
+
+    .tarjetas p {
+        font-size: 14px;
+    }
+
+    .lap h2 {
+        font-size: 33px;
+    }
+
+    .lap p {
+        font-size: 14px;
+    }
+
+    .lap button {
+        font-size: 12px;
+    }
+
+    .tab h2 {
+        font-size: 33px;
+    }
+
+    .tab p {
+        font-size: 14px;
+    }
+
+    .tab button {
+        font-size: 12px;
+    }
+
+    .tab img {
+        margin-left: auto;
+    }
+
+    .sec4 h2{
+        font-size: 38px;
+    }
+}
