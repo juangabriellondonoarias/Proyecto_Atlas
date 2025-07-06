@@ -262,10 +262,24 @@ header button{
 /* Inicio Section 5 */
 .sec5{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #ECEEEF;
     padding-top: 4%;
     padding-bottom: 4%;
+}
+
+.imganesTres{
+    display: flex;
+    gap: 40px;
+}
+
+.imagenes{
+    display: flex;
+    gap: 40px;
+}
+
+.com{
+    width: 32%;
 }
 /* Fin Section 5 */
 
@@ -366,6 +380,8 @@ textarea:hover{
 }
 
 .g{
+    display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -538,5 +554,179 @@ footer img{
 
     .sec4 h2{
         font-size: 38px;
+    }
+
+    .fot h4{
+        font-size: 43px;
+    }
+
+    .ultimo p{
+        font-size: 11px;
+    }
+
+    footer img {
+        width: 40px;
+    }
+
+    .imgem {
+        width: 64px;
+    }
+
+    .ultimo {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+
+    .figuras h2 {
+        font-size: 25px;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+    .img2{
+        width: 100%;
+    }
+
+    .cajagrande{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec5{
+        flex-direction: column;
+    }
+
+    .fot{
+        flex-direction: column;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .formulario{
+        margin-top: 33px;
+    }
+
+    .imganesTres{
+        justify-content: space-around;
+        gap: auto;
+    }
+
+    .imagenes{
+        justify-content: space-around;
+        gap: auto;
+    }
+
+    .caja2{
+        width: 75%;
+    }
+
+    .caja{
+        width: 75%;
+    }
+
+    .ultimo p {
+        font-size: 10px;
+    }
+    
+    footer img {
+        width: 30px;
+    }
+
+    .imgem {
+        width: 48px;
+    }
+} 
+
+@media (max-width:480px) {
+
+    header {
+        zoom: 0.5;
+    }
+
+    .figuras h2 {
+        font-size: 18px;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .imganesTres{
+        gap: 23px;
+    }
+
+    .imagenes{
+        gap: 23px;
+    }
+
+    .img3{
+        width: 100%;
+    }
+
+    .tarjetas h3 {
+        font-size: 16px;
+    }
+
+    .tarjetas p {
+        font-size: 11px;
+    }
+
+    .lap h2 {
+        font-size: 23px;
+    }
+
+    .lap p {
+        font-size: 11px;
+    }
+
+    .lap button {
+        font-size: 8px;
+        padding: 10px 20px;
+    }
+
+    .pc{
+        display: flex;
+        align-items: center;
+    }
+
+    .tab h2 {
+        font-size: 23px;
+    } 
+
+    .tab button {
+        font-size: 8px;
+        padding: 10px 20px;
+    }
+
+        .tab p {
+        font-size: 11px;
+    }
+
+    .sec4 h2 {
+        font-size: 26px;
+    }
+
+    .ultimo p {
+        font-size: 7px;
+    }
+
+    footer img {
+        width: 22px;
+    }
+
+    .imgem {
+        width: 36px;
     }
 }
